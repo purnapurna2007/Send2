@@ -16,7 +16,7 @@
  <a href="https://zax-md-beae6ed77007.herokuapp.com//"><img title="SESSION ID" src="https://img.shields.io/badge/CONNECT TO SERVER -h?color=blue&style=for-the-badge&logo=msi"></a>
 
 ## DEPLOYMENT METHOD
-<a href="https://heroku.com/deploy?template=https://github.com/Xiangzaoh/zax-md"><img title="zax-md Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=blue&style=for-the-badge&logo=heroku"></a> 
+<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fpurnapurna2007%2FSend2%3Ftab%3Dreadme-ov-file&template=https://github.com/purnapurna2007/Send2"><img title="zax-md Deploy Heroku" src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=blue&style=for-the-badge&logo=heroku"></a> 
 
  ### SUPPORT CHANNEL
 <a href="https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k"><img title="zax-md Deploy Glitch" src="https://img.shields.io/badge/WHATSAPP CHANNEL-h?color=blue&style=for-the-badge&logo=whatsapp"></a>
