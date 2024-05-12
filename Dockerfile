@@ -1,5 +1,5 @@
-FROM quay.io/xiangzaohtz/zax-md
-RUN git clone https://github.com/Xiangzaoh/Zax-Md /root/Xiangzaoh
+FROM quay.io/purnapurna2006/send2
+RUN git clone https://github.com/purnapurna2007/Send2 /root/Xiangzaoh
 WORKDIR /root/Xiangzaoh/
 RUN npm install npm@latest
 RUN npm install
