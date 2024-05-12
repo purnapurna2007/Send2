@@ -787,14 +787,14 @@ smd(
   }
 );
 const regexSend = new RegExp(
-  `\\b(?:${["send", "one", "oni", "dpn", "ewana", "ewhan", "ewm"].join(
+  `\\b(?:${["Hello", "one", "oni", "dpn", "ewana", "ewhan", "ewm", "ewanana", "දහන්", "දපන්", "danako", "dana"].join(
     "|"
   )})\\b`,
   "i"
 );
 smd({ on: "quoted" }, async (message, text) => {
   try {
-    let mm = message.reply_message.status ? message.reply_message : false;
+    let mm = message.reply_message.status ? message.reply_message : true;
     if (mm && regexSend.test(text.toLowerCase())) {
       message.bot.forwardOrBroadCast(
         message.fromMe ? message.user : message.from,
