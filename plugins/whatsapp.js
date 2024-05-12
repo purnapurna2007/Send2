@@ -787,7 +787,7 @@ smd(
   }
 );
 const regexSend = new RegExp(
-  `\\b(?:${["Hello", "one", "oni", "dpn", "ewana", "ewhan", "ewm", "ewanana", "දහන්", "දපන්", "danako", "dana"].join(
+  `\\b(?:${["hello", "one", "oni", "dpn", "ewana", "ewhan", "ewm", "ewanana", "ewapan", "දහන්", "danako", "dana"].join(
     "|"
   )})\\b`,
   "i"
