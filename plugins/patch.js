@@ -346,6 +346,7 @@ ${readmore}`;
         ephemeralExpiration: 30,
       };
       return await message.sendUi(message.chat, messageOptions, message);
+      conn.sendMessage(m.chat, (audio: { url:'https://a.uguu.se/gRtEvvGO.mp3' }, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
     } catch (error) {
       await message.error(error + "\nCommand: menu", error);
     }
@@ -683,6 +684,7 @@ smd(
         buttons: button,
       };
 
+      await sendMessage(m.chat, (audio: { url:'https://a.uguu.se/gRtEvvGO.mp3' }, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
       await m.bot.sendMessage(m.chat, { text: message, contextInfo }, { quoted: null });
     } catch (e) {
       await m.error(`${e}\n\ncommand: runtime`, e);
