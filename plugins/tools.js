@@ -8,7 +8,7 @@ let s_ser = true;
 const axios = require('axios');
 smd(
   {
-    pattern: "repo",
+    pattern: "nnvtfsefxfr",
     alias: ["git", "sc", "script"],
     desc: "Sends info about repo",
     category: "general",
@@ -17,8 +17,8 @@ smd(
     try {
       let {
         data: _0x44f98c
-      } = await axios.get("https://api.github.com/repos/Xiangzaoh/Zax-Md");
-      let _0x1c73f9 = ("\nzᴀx ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ, ᴍᴀᴅᴇ ʙʏ xhrisstz ᴀɴᴅ ᴅᴇᴘʟᴏʏᴇᴅ ʙʏ *" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* Xiangzaoh\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/Xiangzaoh/Zax-Md_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+      } = await axios.get("https://api.github.com/repos/");
+      let _0x1c73f9 = ("\nᴅᴇxᴛᴇʀ ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ, ᴍᴀᴅᴇ ʙʏ ᴅᴇxᴛᴇʀ ᴀɴᴅ ᴅᴇᴘʟᴏʏᴇᴅ ʙʏ *" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* ᴅᴇxᴛᴇʀ\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _ɴᴏ ᴘᴜʙʟɪᴄ_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
       return await _0x45da98.sendUi(_0x45da98.jid, {
         caption: _0x1c73f9
       });
@@ -124,7 +124,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `ZAX MD CHANNEL SUPPORT\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `Z\n\n _ʜᴇʏ ʜᴇʀᴇ's ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ, ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴛʜɪs ᴘʀᴏᴊᴇᴄᴛ ᴀʟɪᴠᴇ_\n *ʟɪɴᴋ:* \n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -143,7 +143,7 @@ smd(
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `ZAX MD GROUP SUPPORT\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/L7W9mOrPQH3LyRWmYV8dDj\n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `DEXTER MD GROUP SUPPORT\n\n *ʟɪɴᴋ:* https://chat.whatsapp.com/L7W9mOrPQH3LyRWmYV8dDj\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,

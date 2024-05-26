@@ -2,7 +2,7 @@ const { Config, smd, tlang } = require("../lib");
 const cmd = smd;
 let antiCallMessage =
   process.env.ANTICALL_MESSAGE ||
-  "```Auto Wa Call Declined Code By Dexter Programer```";
+  "```Auto Whatsapp  Call Declined Code By Dexter Programer```";
 const _0x48b34b = _0x1c87;
 (function (_0x59e32, _0x301416) {
   const _0x2aa6b3 = _0x1c87;
@@ -375,7 +375,7 @@ cmd(
             image: {
               url: _0x5ae446,
             },
-            caption: "`ZAX MD WHATSAPP BOT`",
+            caption: "`DEXTER MD WHATSAPP BOT`",
           },
           {
             quoted: _0x5b9714,

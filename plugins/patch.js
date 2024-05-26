@@ -55,7 +55,7 @@ const database_info = (() => {
 })();
 smd({ cmdname: "updatenow", type: "owner", info: "Downloads the entire Git repository from https://github.com/Xiangzaoh/Zax-Md on the root of the app.", fromMe: s_ser, filename: __filename }, async (message) => {
   try {
-    const repoUrl = 'https://github.com/Xiangzaoh/Zax-Md';
+    const repoUrl = 'https://github.com';
     const repoDir = './'; // Current working directory (root of the app)
 
     await send.message("Downloading Git Repository...");
