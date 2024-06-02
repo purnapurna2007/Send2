@@ -1,4 +1,4 @@
-const { tlang,cmd } = require('../lib/plugins')
+const { cmd } = require('../lib/plugins')
 const Config = require('../config')
 const axios = require('axios')
 // Put here your url with modified words and urls
